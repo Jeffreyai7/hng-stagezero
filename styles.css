@@ -54,13 +54,16 @@ nav {
 
 }
 
-.socials{
+.socials, .socials ul{
     display: flex;
     align-items: center;
     gap: 1em;
+    list-style: none;
 }
 
-.socials a:hover{
+
+
+ul li:hover{
     scale: 1.2;
 }
 
