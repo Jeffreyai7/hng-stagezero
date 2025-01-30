@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #e9b675;
+    padding-bottom: 1em;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+h1{
+    font-family: 'Agbalumo', cursive;
+    font-size: 1.5m;
+    color: #333;
+    
+}
+
+nav {
+    background-color: #e9b675;
+    padding: 1rem 2rem;
+    position: sticky;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    margin-bottom: 1em;
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+.profile-card {
+  display: grid;
+  place-content: center;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 0.5em;
+}
+
+
+ h2 {
+  font-size: 1.2em;
+  color: #333;
+  text-align: center;
+  font-family: 'Agbalumo', cursive;
+  margin: 1em 0;
+
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.socials a:hover{
+    scale: 1.2;
+}
+
+.info{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.info, .info p {
+    margin-bottom: 1em;
+}
+
+
+.about-us__text p{
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px){
+    .about-us{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2em;
+        max-width: 768px;
+        margin: 2em auto;
+
+    }
+
+    .about-us > div{
+        flex: 1;
+    }
+
+    .info{
+        width: 50%;
+        margin: 0 auto;
+        /* text-align: center; */
+    }
+
+    .info h2 {
+        text-align: left;
+    }
+}

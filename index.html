@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Profile Card</title>
+</head>
+<body>
+    <nav class="intro">
+        <h1>My Profile Card</h1>
+    </nav>
+    <main>
+                <div class="about-us">
+                    <div class="profile-card">
+                        <img data-testid="profilePicture" src="images/DSC_0642.jpg" alt="profilepic" >
+                    </div>
+                    <div class="info">
+                        <h2 data-testid="fullName">Jeffrey Irukeh</h2>
+                        <p><span>Address:</span> <span data-testid="currentLocation">Lagos, Nigeria</span></p>
+                        <p><span>Address:</span> <span data-testid="emailAddress">jirukeh@gmail.com</span></p>
+                        <p ><span>Email:</span> <span data-testid="jobTitle">Front-End Developer</span></p>
+                        <p ><span>Time:</span> <span id="time" data-testid="currentTimeUTC" ></span></p>
+                        <p ><span>Day:</span> <span id="day" data-testid="currentTimeUTC" ></span></p>
+                        <p class="socials"> <span>Follow me on:</span> <a data-testid="socialLinks" href="https://github.com/Jeffreyai7"><img src="/images/svg/github.svg" width="25" height="25" alt="github"></a> <a data-testid="socialLinks" href="https://www.linkedin.com/in/jirukeh/"><img src="/images/svg/linkedin-round.svg" width="25" height="25" alt="linkedin"></a> <a data-testid="socialLinks" href="https://www.facebook.com/irukeh.jeffrey"><img src="/images/svg/facebook.svg" alt="fb" width="25" height="25"></a></p>
+                        
+                    </div>
+                </div>
+                <div class="about-us__text">
+                    <h2>About Me</h2>
+                    <p data-testid="shortBio"> 
+                        Hi, I'm a front-end developer with two years of experience creating elegant, user-friendly web interfaces. I specialize in HTML, CSS, JavaScript, and React, focusing on writing clean and maintainable code. I'm passionate about design, exploring emerging technologies, and contributing to open-source projects. Committed to continuous learning, I stay up-to-date with the latest industry trends to deliver innovative solutions.
+                    </p>
+                </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
